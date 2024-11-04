@@ -36,6 +36,7 @@ yarn-error.log*
 next-env.d.ts
 
 # fonts
+!src/app/fonts/files/
 !src/app/fonts/files/*.woff
 !src/app/fonts/files/*.woff2
 
