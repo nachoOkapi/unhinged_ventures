@@ -1,23 +1,37 @@
 import localFont from "next/font/local";
 
 export const ppMoriSemiBold = localFont({
-  src: "./files/PPMori-Semibold.woff",
+  src: [{
+    path: './files/PPMori-Semibold.woff',
+    weight: '600',
+    style: 'normal',
+  }],
   variable: "--font-pp-mori-semibold",
 });
 
 export const junicodeBoldItalic = localFont({
-  src: "./files/junicode-bolditalic-webfont.woff",
+  src: [{
+    path: './files/junicode-bolditalic-webfont.woff',
+    weight: '700',
+    style: 'italic',
+  }],
   variable: "--font-junicode-bold-italic",
 });
 
 export const geistSans = localFont({
-  src: "./files/GeistVF.woff",
+  src: [{
+    path: './files/GeistVF.woff',
+    weight: '100 900',
+    style: 'normal',
+  }],
   variable: "--font-geist-sans",
-  weight: "100 900",
 });
 
 export const chesterPro = localFont({
-  src: "./files/BNChesterPro.woff",
+  src: [{
+    path: './files/BNChesterPro.woff',
+    weight: '400',
+    style: 'normal',
+  }],
   variable: "--font-chester-pro",
-  weight: "400",
 });
