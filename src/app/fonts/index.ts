@@ -1,10 +1,14 @@
 import localFont from "next/font/local";
 
 export const ppMoriSemiBold = localFont({
-  src: './files/PPMori-Semibold.woff',
+  src: [
+    {
+      path: '../../../public/fonts/PPMori-Semibold.woff',
+      weight: '600',
+      style: 'normal',
+    }
+  ],
   variable: "--font-pp-mori-semibold",
-  weight: '600',
-  style: 'normal',
 });
 
 export const junicodeBoldItalic = localFont({
