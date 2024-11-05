@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import "./globals.css";
 import {
-  ppMoriSemiBold,
   junicodeBoldItalic,
   geistSans,
 } from "./fonts/index";
@@ -20,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`
-          ${ppMoriSemiBold.variable}
           ${junicodeBoldItalic.variable}
           ${geistSans.variable}
           font-sans antialiased
