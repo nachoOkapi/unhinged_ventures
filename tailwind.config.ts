@@ -51,7 +51,6 @@ const config: Config = {
   			blink: 'blink 1s step-end infinite',
   		},
   		fontFamily: {
-  			'pp-mori-semibold': ['var(--font-pp-mori-semibold)', 'sans-serif'],
   			'junicode-bold-italic': ['var(--font-junicode-bold-italic)', 'serif'],
   		},
   	}
